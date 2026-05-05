@@ -1,12 +1,15 @@
 #include<stdio.h> 
 int main() { 
-int sum=0, i=10; 
-   sum=sum+i++; 
-   printf("sum=%d\n", sum);
-   i=i+1; 
-   ++i; 
-   i--; 
-   sum+=i; 
-   printf("sum=%d i=%d", sum, i); 
-   return 0; 
+int a=14, b=4, R, Q; 
+    Q=0; 
+    R=a; 
+    while((a-b)>=0){ 
+        R=a-b; 
+        ++Q; 
+        a=R; 
+    } 
+ 
+       
+ 
+    printf("Q=%d\n R=%d", Q, R);
 } 
